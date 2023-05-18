@@ -1,0 +1,620 @@
+ /* body{
+    background-image: url('https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2073&q=80');
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url('https://images.unsplash.com/photo-1500989145603-8e7ef71d639e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80');
+} */
+
+
+/* -------NAVBAR START ----------*/
+ .navbar .navbar-brand{
+    font-size: 20px; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    color: rgb(23, 219, 52);
+}
+/* -------NAVBAR END ----------*/
+
+
+
+
+
+/* --------SLIDER  START--------*/
+
+.carousel-inner img{
+                  
+    width:100%!important;
+    height:500px!important; 
+}
+#img img{
+            
+            width:100%!important;
+            height:200px!important; 
+        }
+        #text h1:hover{
+            text-decoration: underline;
+          }
+          h1 span:hover{
+            text-decoration: underline;
+          }
+/* --------SLIDER  START--------*/
+
+
+
+
+/* ---------SKILLS    ----------       */
+ #Skills{
+    font-family: 'Labrada', serif;
+   
+    text-shadow: 3px 3px 3px ; 
+    /* background-color: aliceblue; */
+        border-radius: 34px;
+ }   
+ #Skills:hover{
+    text-decoration: 2px underline;
+ }
+ 
+ 
+ /* ---------SKILLS END    ----------       */ 
+ 
+/* ---------Education    ----------       */
+
+.about2{
+  height:320px;
+  padding:30px;
+  background:#fff;
+}	
+.about2:hover{
+  background:url('https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80');
+  /* //border-radius:40px; */
+  color:rgb(6, 6, 6);
+  transition: 0.9s;
+}
+
+/* ---------Education End    ----------       */
+
+
+
+ 
+
+
+
+/*----- CONTACTS START --------*/
+    #Contacts{
+        font-family: 'Labrada', serif;
+        text-shadow: 3px 3px 3px ;
+        /* background-color: aliceblue; */
+        border-radius: 34px;
+    }
+    #Contacts:hover{
+        text-decoration: 2px underline;
+    }
+/*----- CONTACTS END --------*/
+
+
+
+    /* scrool bar STRAT--------------- */
+
+    ::-webkit-scrollbar{
+        width: 15px;
+    }
+    ::-webkit-scrollbar-track{
+        background-color: #d1e5ff;
+    }
+    ::-webkit-scrollbar-thumb{
+        background: linear-gradient(#642bff,#ff22e6);
+        border-radius: 23px;
+    }
+
+ /* scrool bar end--------------- */
+
+
+
+/*-------- HOBBIES START-------*/
+#Hobbies
+{
+    
+   
+    font-family: 'Labrada', serif;
+    text-shadow: 3px 3px 3px ;
+    /* background-color: aliceblue; */
+        border-radius: 34px;
+}
+#Hobbies:hover{
+    text-decoration: 2px underline;
+}
+.content{
+  font-size: 30px;
+}
+#hobb
+{
+   
+    /* background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c); */
+    background-image: url('https://images.unsplash.com/photo-1678205801117-4e28f4f7fd3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');
+    background-size: cover;
+    color: #0a0a0a;
+    border-radius: 43px;
+    font-family: 'Climate Crisis', cursive;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#hobb:hover{
+    text-decoration: underline;
+}
+/*-------- HOBBIES END-------*/
+
+
+
+/* -----------Portfolio START------- */
+#portfolio{
+        font-family: 'Labrada', serif;
+        text-shadow: 3px 3px 3px ;
+        /* background-color: aliceblue; */
+         border-radius: 34px;
+    
+}
+#portfolio:hover{
+    text-decoration: 2px underline;
+}
+/* -----------Portfolio START------- */
+
+/* ----------social START--------- */
+#social{
+    background-image: url('https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+background-size: cover;
+ border-radius: 23px;
+}
+
+
+/*--------- MODAL START--------------- */
+img{
+	max-width: 100%;
+}
+.gallery{
+	/* background-color: #dbddf1; */
+	padding: 80px 0;
+}
+.gallery img{
+	/* background-color: #ffffff; */
+	padding: 15px;
+	width: 100%;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	cursor: pointer;
+    filter: grayscale(100%);
+} 
+ .gallery img:hover{
+    filter: grayscale(0%);
+ }
+    
+
+#gallery-modal .modal-img{
+	width: 100%;
+}
+/*--------- MODAL START--------------- */
+
+
+
+
+/* hover START */
+/* .box{
+    border: 2px solid black;
+    width: 270px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 34px;
+  
+
+ }
+ .box img{
+     width: 100%;
+     height: auto;
+ }
+ .content{
+     color: white;
+     background-color: rgb(217, 223, 221);
+     position: absolute;
+     top: -100%;
+     left:0;
+     width: 100%;
+     height: 100%;
+     padding: 20px;
+     box-sizing: border-box;
+     background-color: rgba(0,0,0,0.8);
+     transition: all 1s;
+ }
+ .box:hover .content{
+     top: 0;
+ } */
+ .box{
+            /* border: 2px solid black; */
+           
+            position: relative;
+            overflow: hidden;
+            margin:0px;
+            padding: 20px;
+            border-radius: 34px;
+        }
+        .box img{
+            width: 100%;
+            transition: all 0.3s;
+            /* transform: scale(0); */
+        }
+        .box:hover img{
+            transform: scale(0);
+        }
+        .content{
+            background-color: rgba(0,0,0,0.8);
+            color: aliceblue;
+            position: absolute;
+            cursor: pointer;
+            left: 0;
+            top: 0;
+            height: 100%;
+            padding: 23px;
+            font-family: 'Climate Crisis', cursive;
+            box-sizing: border-box;
+            transform: scale(0) rotate(-180deg);
+            transition: all 0.4s;
+        }
+        .box:hover .content{
+            transform: scale(1) rotate(0deg);
+            transition-delay: 0.3s;
+        }
+ /* hover END */
+
+
+
+
+ .magic button {
+    width: 150px;
+    height: 40px;
+    border: 3px solid #000;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    }
+    .magic button {
+    transition: all 0.3s ease;
+    }
+    .magic button:hover {
+    box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001;
+    }
+    .magic-bar {
+    width:100%;
+    text-align: center;
+    margin-bottom:15px;
+    }
+    
+    .progress {
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    }
+    
+    .progress-bar {	
+    height: 18px;
+    background-color: #ee303c;  
+    border-radius: 4px; 
+    transition: 0.4s linear;  
+    transition-property: width, background-color;    
+    }
+    
+    .progress-striped .progress-bar { 	
+    background-color: #7d06f4; 
+    width: 95%; 
+    background-image: linear-gradient(
+            45deg, #7d06f4 25%, 
+            transparent 25%, transparent 50%, 
+            #7d06f4 50%, #06b1f4 75%,
+            transparent 75%, transparent); 
+    animation: progressAnimationStrike 10s;
+    }
+    
+    @keyframes progressAnimationStrike {
+        from { width: 0 }
+        to   { width: 95% }
+    }
+    
+    .magic2-progress-striped .progress-bar { 	
+        background-color: #e0e70e; 
+        width: 85%; 
+        background-image: linear-gradient(
+                45deg, #e0e70e 25%, 
+                transparent 25%, transparent 50%, 
+                #e0e70e 50%, #0ee724 75%,
+                transparent 75%, transparent); 
+        animation: progressAnimationStrike 10s;
+    }
+    
+    @keyframes magic2-progressAnimationStrike {
+        from { width: 0 }
+        to   { width: 85% }
+    }
+    
+    .magic3-progress-striped .progress-bar { 	
+      background-color: #120ee7; 
+      width: 90%; 
+      background-image: linear-gradient(
+              45deg, #120ee7 25%, 
+              transparent 25%, transparent 50%, 
+              #120ee7 50%, #e70e89 75%,
+              transparent 75%, transparent); 
+      animation: progressAnimationStrike 10s;
+  }
+  
+  @keyframes magic3-progressAnimationStrike {
+      from { width: 0 }
+      to   { width: 90% }
+  }
+    
+    .magic4-progress-striped .progress-bar { 	
+        background-color: #168ce7; 
+        width: 75%; 
+        background-image: linear-gradient(
+                45deg, #168ce7 25%, 
+                transparent 25%, transparent 50%, 
+                #168ce7 50%, rgba(8, 239, 143, 0.741)5%,
+                transparent 75%, transparent); 
+        animation: progressAnimationStrike 10s;
+    }
+    
+    @keyframes magic4-progressAnimationStrike {
+        from { width: 0 }
+        to   { width: 75% }
+    }
+    .magic5-progress-striped .progress-bar { 	
+        background-color: #08f4d9; 
+        width: 70%; 
+        background-image: linear-gradient(
+                45deg, #08f4d9 25%, 
+                transparent 25%, transparent 50%, 
+                #08f4d9 50%, #0c08f4 75%,
+                transparent 75%, transparent); 
+        animation: progressAnimationStrike 10s;
+    }
+    
+    @keyframes magic5-progressAnimationStrike {
+        from { width: 0 }
+        to   { width: 70% }
+    }
+    .magic6-progress-striped .progress-bar { 	
+        background-color: #e61426; 
+        width: 80%; 
+        background-image: linear-gradient(
+                45deg, #e61426 25%, 
+                transparent 25%, transparent 50%, 
+                #e61426 50%, #1b1a1a 75%,
+                transparent 75%, transparent); 
+        animation: progressAnimationStrike 10s;
+    }
+    
+    @keyframes magic6-progressAnimationStrike {
+        from { width: 0 }
+        to   { width: 80% }
+    }
+
+
+    @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200,900');
+
+:root {
+  --text-color: hsla(210, 50%, 85%, 1);
+  --shadow-color: hsla(210, 40%, 52%, .4);
+  --btn-color: hsl(210, 80%, 42%);
+  --bg-color: #141218;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/*---------------- button START-------- */
+button {
+  position:relative;
+  padding: 10px 20px;  
+  border: none;
+  background: none;
+  cursor: pointer;
+  
+  font-family: "Source Code Pro";
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 30px;  
+  color: var(--text-color);
+  
+  background-color: var(--btn-color);
+  box-shadow: var(--shadow-color) 2px 2px 22px;
+  border-radius: 4px; 
+  z-index: 0;  
+  overflow: hidden;   
+}
+
+button:focus {
+  outline-color: transparent;
+  box-shadow: var(--btn-color) 2px 2px 22px;
+}
+
+.right::after, button::after {
+  content: var(--content);
+  display: block;
+  position: absolute;
+  white-space: nowrap;
+  padding: 40px 40px;
+  pointer-events:none;
+}
+
+button::after{
+  font-weight: 200;
+  top: -30px;
+  left: -20px;
+} 
+
+.right, .left {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+.right {
+  left: 66%;
+}
+.left {
+  right: 66%;
+}
+.right::after {
+  top: -30px;
+  left: calc(-66% - 20px);
+  
+  background-color: var(--bg-color);
+  color:transparent;
+  transition: transform .4s ease-out;
+  transform: translate(0, -90%) rotate(0deg)
+}
+
+button:hover .right::after {
+  transform: translate(0, -47%) rotate(0deg)
+}
+
+button .right:hover::after {
+  transform: translate(0, -50%) rotate(-7deg)
+}
+
+button .left:hover ~ .right::after {
+  transform: translate(0, -50%) rotate(7deg)
+}
+
+/* bubbles */
+button::before {
+  content: '';
+  pointer-events: none;
+  opacity: .6;
+  background:
+    radial-gradient(circle at 20% 35%,  transparent 0,  transparent 2px, var(--text-color) 3px, var(--text-color) 4px, transparent 4px),
+    radial-gradient(circle at 75% 44%, transparent 0,  transparent 2px, var(--text-color) 3px, var(--text-color) 4px, transparent 4px),
+    radial-gradient(circle at 46% 52%, transparent 0, transparent 4px, var(--text-color) 5px, var(--text-color) 6px, transparent 6px);
+
+  width: 100%;
+  height: 300%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  animation: bubbles 5s linear infinite both;
+}
+
+@keyframes bubbles {
+  from {
+    transform: translate();
+  }
+  to {
+    transform: translate(0, -66.666%);
+  }
+}
+
+button {
+  position:relative;
+  padding: 10px 20px;  
+  border: none;
+  background: none;
+  cursor: pointer;
+  
+  font-family: "Source Code Pro";
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 30px;  
+  color: var(--text-color);
+  
+  background-color: var(--btn-color);
+  box-shadow: var(--shadow-color) 2px 2px 22px;
+  border-radius: 4px; 
+  z-index: 0;  
+  overflow: hidden;   
+}
+
+button:focus {
+  outline-color: transparent;
+  box-shadow: var(--btn-color) 2px 2px 22px;
+}
+
+.right::after, button::after {
+  content: var(--content);
+  display: block;
+  position: absolute;
+  white-space: nowrap;
+  padding: 40px 40px;
+  pointer-events:none;
+}
+
+button::after{
+  font-weight: 200;
+  top: -30px;
+  left: -20px;
+} 
+
+.right, .left {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+.right {
+  left: 66%;
+}
+.left {
+  right: 66%;
+}
+.right::after {
+  top: -30px;
+  left: calc(-66% - 20px);
+  
+  background-color: var(--bg-color);
+  color:transparent;
+  transition: transform .4s ease-out;
+  transform: translate(0, -90%) rotate(0deg)
+}
+
+button:hover .right::after {
+  transform: translate(0, -47%) rotate(0deg)
+}
+
+button .right:hover::after {
+  transform: translate(0, -50%) rotate(-7deg)
+}
+
+button .left:hover ~ .right::after {
+  transform: translate(0, -50%) rotate(7deg)
+}
+
+/* bubbles */
+button::before {
+  content: '';
+  pointer-events: none;
+  opacity: .6;
+  background:
+    radial-gradient(circle at 20% 35%,  transparent 0,  transparent 2px, var(--text-color) 3px, var(--text-color) 4px, transparent 4px),
+    radial-gradient(circle at 75% 44%, transparent 0,  transparent 2px, var(--text-color) 3px, var(--text-color) 4px, transparent 4px),
+    radial-gradient(circle at 46% 52%, transparent 0, transparent 4px, var(--text-color) 5px, var(--text-color) 6px, transparent 6px);
+
+  width: 100%;
+  height: 300%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  animation: bubbles 5s linear infinite both;
+}
+
+@keyframes bubbles {
+  from {
+    transform: translate();
+  }
+  to {
+    transform: translate(0, -66.666%);
+  }
+}
+/*---------------- button START-------- */
+
